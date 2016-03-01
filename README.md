@@ -5,38 +5,34 @@ A small library providing awesome phrases and quotes to show in your application
 
 ## Installation
 
-  npm install awesome-quotes --save
+    npm install awesome-quotes --save
 
 ## Usage
-
-  var quotes = require('awesome-quotes');
-  
-  /*
-    Get a ramdom quote in the collection "computers", and
-    "english" language
-  */
-  var phrase = quotes.getQuote('computers','en');
-
-  console.log(phrase);
+    
+    // Get a ramdom quote in the collection "computers" with the "english" language
+    var quotes = require('awesome-quotes');
+    var phrase = quotes.getQuote('computers','en');
+    console.log(phrase);
 
 ## Other Example
 
-  var quotes = require('awesome-quotes');
-  
-  /*
-    Get a ramdom quote in the collection "computers", and
-    "brazilian portuguese" language
-  */
-  var phrase = quotes.getQuote('computers','pt-br');
+    // Get a ramdom quote in the collection "computers" with the "brazilian portuguese" language
+    var quotes = require('awesome-quotes');
+    var phrase = quotes.getQuote('computers','pt-br');
+    console.log(phrase);
 
-  console.log(phrase);
+## Using Collections
+  To use a collection, you must write it in lowercase, followed by the supported language. Example:
+      
+      // Using the Computers Collection (a collection of programmers and computer scientists quotes)
+      var phrase = quotes.getQuote('computers','pt-br');
 
 ## Supported Collections and Languages
-
-    At this moment, the library supports:
-        ## Computers collection
-            English - en
-            Brazilian Portuguese - pt-br
+    
+    At this moment, the library supports these collections:
+      Computers (en, pt-br)
+        
+    
 
 ## Contributing
 
