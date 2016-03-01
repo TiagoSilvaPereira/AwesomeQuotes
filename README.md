@@ -30,13 +30,13 @@ A small library providing awesome phrases and quotes to show in your application
 ## Supported Collections and Languages
     
     At this moment, the library supports these collections:
-      Computers (en, pt-br)
+      Computers (en, pt, pt-br)
         
 ## Creating Collections
 
     1. Create a directory in /quotes with the lowercase name of the collection
     2. For each language, create a JSON file. Eg: en.json, pt-br.json, etc.
-    
+
 
 ## Contributing
 

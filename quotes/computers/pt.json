@@ -1,0 +1,41 @@
+{
+    "quotes": [
+        {
+            "text" : "Um dos meus dias mais produtivos foi quando eu joguei fora 1000 linhas de código",
+            "author": "Ken Thompson"
+        },
+        {
+            "text" : "Existem duas maneiras de construir um projeto de software. Uma é fazê-lo tão simples que obviamente não há falhas. A outra é fazê-lo tão complicado que não existem falhas óbvias.",
+            "author": "C.A.R. Hoare"
+        },
+        {
+            "text" : "A arte de programar consiste na arte de organizar e dominar a complexidade.",
+            "author": "Dijkstra"
+        },
+        {
+            "text" : "Medir o progresso de um programa por linhas de código é como medir o processo de montagem de um avião pelo peso.",
+            "author": "Bill Gates"
+        },
+        {
+            "text" : "O problema com os programadores é que você nunca consegue saber o que eles estão fazendo antes de ser tarde demais.",
+            "author": "Seymour Cray"
+        },
+        {
+            "text" : "Eu sempre desejei que o meu computador fosse tão fácil de usar quanto o meu telefone. Meu desejo se tornou realidade pois eu não consigo mais usar o meu telefone.
+",
+            "author": "Bjarne Stroustrup"
+        },
+        {
+            "text" : "A maioria dos softwares atuais são como as pirâmides do Egito, com milhões de blocos empilhados um em cima dos outros, nenhuma integridade estrutural, feita apenas pela força bruta e milhares de escravos.",
+            "author": "Alan Kay"
+        },
+        {
+            "text" : "Falar é fácil. Mostre-me o código.",
+            "author": "Linus Torvalds"
+        },
+        {
+            "text" : "Computadores quebram, pessoas morrem e relacionamentos acabam. O melhor que nós podemos fazer é respirar e reiniciar.",
+            "author": "Carrie Bradshaw"
+        }
+    ]
+}
