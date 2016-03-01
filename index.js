@@ -4,7 +4,8 @@ module.exports = {
 
     getQuote: function (collection, language) {
 
-        quotes_file     = fs.readFileSync('./quotes/' + collection + '-' + language + '.json');
+        quotes_file     = fs.readFileSync('./quotes/' + collection.toLowerCase() + '/' 
+                                          + language.toLowerCase() + '.json');
         
         if(quotes_file) {
 
