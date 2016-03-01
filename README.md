@@ -9,14 +9,14 @@ A small library providing awesome phrases and quotes to show in your application
 
 ## Usage
     
-    // Get a ramdom quote in the collection "computers" with the "english" language
+    // Gets a ramdom quote in the collection "computers" with the "english" language
     var quotes = require('awesome-quotes');
     var phrase = quotes.getQuote('computers','en');
     console.log(phrase);
 
 ## Other Example
 
-    // Get a ramdom quote in the collection "computers" with the "brazilian portuguese" language
+    // Gets a ramdom quote in the collection "computers" with the "brazilian portuguese" language
     var quotes = require('awesome-quotes');
     var phrase = quotes.getQuote('computers','pt-br');
     console.log(phrase);
@@ -32,7 +32,10 @@ A small library providing awesome phrases and quotes to show in your application
     At this moment, the library supports these collections:
       Computers (en, pt-br)
         
-    
+## Creating Collections
+
+    1. Create a directory in /quotes with the lowercase name of the collection
+    2. For each language, create a JSON file. Eg: en.json, pt-br.json, etc.    
 
 ## Contributing
 
