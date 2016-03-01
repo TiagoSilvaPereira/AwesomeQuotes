@@ -1,9 +1,9 @@
 module.exports = {
 
-    fs = require('fs');
-
     getQuote: function (collection, language) {
 
+        fs = require('fs');
+        
         quotes_file     = fs.readFileSync('./quotes/' + collection.toLowerCase() + '/' 
                                           + language.toLowerCase() + '.json');
         
