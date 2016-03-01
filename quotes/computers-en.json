@@ -1,0 +1,40 @@
+{
+    "quotes": [
+        {
+            "text" : "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the universe trying to build bigger and better idiots. So far, the universe is winning.",
+            "author": "Rick Cook"
+        },
+        {
+            "text" : "Lisp isn't a language, it's a building material.",
+            "author": "Alan Kay"
+        },
+        {
+            "text" : "Walking on water and developing software from a specification are easy if both are frozen.",
+            "author": "Edward V Berard"
+        },
+        {
+            "text" : "A programming language is low level when its programs require attention to the irrelevant.",
+            "author": "Alan J. Perlis."
+        },
+        {
+            "text" : "A C program is like a fast dance on a newly waxed dance floor by people carrying razors.",
+            "author": "Waldi Ravens."
+        },
+        {
+            "text" : "I have always wished for my computer to be as easy to use as my telephone; my wish has come true because I can no longer figure out how to use my telephone.",
+            "author": "Bjarne Stroustrup"
+        },
+        {
+            "text" : "Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.",
+            "author": "Linus Torvalds"
+        },
+        {
+            "text" : "Most software today is very much like an Egyptian pyramid with millions of bricks piled on top of each other, with no structural integrity, but just done by brute force and thousands of slaves.",
+            "author": "Alan Kay"
+        },
+        {
+            "text" : "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+            "author": "Brian W. Kernighan."
+        }
+    ]
+}

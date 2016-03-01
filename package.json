@@ -1,0 +1,24 @@
+{
+  "name": "awesome-quotes",
+  "version": "0.0.1",
+  "description": "A small library providing awesome phrases and quotes to show in your application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiagoSilvaPereira/AwesomeQuotes.git"
+  },
+  "keywords": [
+    "phrases",
+    "quotes",
+    "awesome"
+  ],
+  "author": "Tiago S. Pereira Rodrigues",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiagoSilvaPereira/AwesomeQuotes/issues"
+  },
+  "homepage": "https://github.com/TiagoSilvaPereira/AwesomeQuotes#readme"
+}
