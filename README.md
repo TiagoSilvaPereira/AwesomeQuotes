@@ -36,9 +36,13 @@ console.log(phrase);
       var phrase = quotes.getQuote('computers','pt-br');
 
 ## Supported Collections and Languages
-    
-    At this moment, the library supports these collections:
-      Computers (en, pt, pt-br)
+
+At this moment, the library supports these collections:
+
+- computers (a collection of programmers and computer scientists quotes)
+    - en
+    - pt
+    - pt-br
         
 ## Creating Collections
 
