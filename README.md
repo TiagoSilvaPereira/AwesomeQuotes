@@ -41,9 +41,17 @@ quotes.getQuote('computers','pt-br', function(err, data) {
 
 ## Using Collections
   To use a collection, you must write it in lowercase, followed by the supported language. Example:
-      
-      // Using the Computers Collection (a collection of programmers and computer scientists quotes)
-      var phrase = quotes.getQuote('computers','pt-br');
+
+```javascript         
+// Using the Computers Collection (a collection of programmers and computer scientists quotes)
+quotes.getQuote('computers','pt-br', function(err, data) {
+
+    if(!err) {
+        console.log(data);
+    }
+
+});
+```
 
 ## Supported Collections and Languages
 
