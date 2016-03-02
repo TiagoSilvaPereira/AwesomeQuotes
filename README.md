@@ -9,13 +9,15 @@ A small library providing awesome phrases and quotes to show in your application
 
 ## Usage
     
+    ```javascript
     // Gets a random quote in the collection "computers" with the "english" language
     var quotes = require('awesome-quotes');
     var phrase = quotes.getQuote('computers','en');
     console.log(phrase);
+    ```
 
-## Other Example
-
+### Other Example
+    
     // Gets a random quote in the collection "computers" with the "brazilian portuguese" language
     var quotes = require('awesome-quotes');
     var phrase = quotes.getQuote('computers','pt-br');
