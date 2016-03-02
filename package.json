@@ -1,6 +1,6 @@
 {
   "name": "awesome-quotes",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A small library providing awesome phrases and quotes to show in your application",
   "main": "index.js",
   "scripts": {

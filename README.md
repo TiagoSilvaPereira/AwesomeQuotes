@@ -76,4 +76,4 @@ You can modify the json archives in the /quotes directory to add more phrases an
 
 * 0.1.0 Initial release
 * 0.1.2 Fix bugs
-* 0.2.0 Make library asynchronous
+* 0.2.1 Make library asynchronous
