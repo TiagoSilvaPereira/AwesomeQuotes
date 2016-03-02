@@ -8,18 +8,26 @@ A small library providing awesome phrases and quotes to show in your application
     npm install awesome-quotes --save
 
 ## Usage
-    
-    // Gets a random quote in the collection "computers" with the "english" language
-    var quotes = require('awesome-quotes');
-    var phrase = quotes.getQuote('computers','en');
-    console.log(phrase);
+
+```javascript        
+// Gets a random quote in the collection "computers" with the "english" language
+var quotes = require('awesome-quotes');
+var phrase = quotes.getQuote('computers','en');
+console.log(phrase);
+```
+
+Each returned quote is a object containing:
+- text
+- author
 
 ### Other Example
-    
-    // Gets a random quote in the collection "computers" with the "brazilian portuguese" language
-    var quotes = require('awesome-quotes');
-    var phrase = quotes.getQuote('computers','pt-br');
-    console.log(phrase);
+
+```javascript    
+// Gets a random quote in the collection "computers" with the "brazilian portuguese" language
+var quotes = require('awesome-quotes');
+var phrase = quotes.getQuote('computers','pt-br');
+console.log(phrase);
+```
 
 ## Using Collections
   To use a collection, you must write it in lowercase, followed by the supported language. Example:
