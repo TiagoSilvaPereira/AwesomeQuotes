@@ -12,8 +12,13 @@ A small library providing awesome phrases and quotes to show in your application
 ```javascript        
 // Gets a random quote in the collection "computers" with the "english" language
 var quotes = require('awesome-quotes');
-var phrase = quotes.getQuote('computers','en');
-console.log(phrase);
+quotes.getQuote('computers','en', function(err, data) {
+
+    if(!err) {
+        console.log(data);
+    }
+
+});
 ```
 
 Each returned quote is a object containing:
@@ -25,8 +30,13 @@ Each returned quote is a object containing:
 ```javascript    
 // Gets a random quote in the collection "computers" with the "brazilian portuguese" language
 var quotes = require('awesome-quotes');
-var phrase = quotes.getQuote('computers','pt-br');
-console.log(phrase);
+quotes.getQuote('computers','pt-br', function(err, data) {
+
+    if(!err) {
+        console.log(data);
+    }
+
+});
 ```
 
 ## Using Collections
@@ -58,3 +68,4 @@ You can modify the json archives in the /quotes directory to add more phrases an
 
 * 0.1.0 Initial release
 * 0.1.2 Fix bugs
+* 0.2.0 Make library asynchronous
